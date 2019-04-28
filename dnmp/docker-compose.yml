@@ -31,6 +31,7 @@ services:
         BUILT_IN_OPCACHE: "true"
     expose:
       - "9000"
+    command: php-fpm -R
     volumes:
       - sync-folder:/var/www/html/:rw
       - ./conf/php.ini:/usr/local/etc/php/php.ini:ro
