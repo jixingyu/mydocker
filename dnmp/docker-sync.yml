@@ -1,0 +1,8 @@
+version: "2"
+syncs:
+  sync-folder:
+    src: '/Users/hypnos/Work/git/'
+    sync_strategy: 'unison'
+    # 同步时的用户ID，不指定的话为root
+    # sync_userid: '1000'
+    sync_excludes: ['.sass-cache', 'sass', 'sass-cache', 'composer.json' , 'bower.json', 'package.json', 'Gruntfile*', 'bower_components', 'node_modules', '.gitignore', '.git', '*.coffee', '*.scss', '*.sass']
