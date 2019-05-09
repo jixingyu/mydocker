@@ -40,7 +40,7 @@ DNMP项目特点：
 1. 本地安装`git`、`docker`和`docker-compose`。
 2. `clone`项目：
     ```
-    $ git clone https://github.com/yeszao/dnmp.git
+    $ git clone git@github.com:jixingyu/mydocker.git
     ```
 3. 如果不是`root`用户，还需将当前用户加入`docker`用户组：
     ```
@@ -48,7 +48,7 @@ DNMP项目特点：
     ```
 4. 启动：
     ```
-    $ cd dnmp
+    $ cd mydocker/dnmp
     $ docker-compose up
     ```
 5. 访问在浏览器中访问：
@@ -171,11 +171,13 @@ Redis连接信息如下：
 
 ## 常见问题
 1. 遇到“No releases available for package "pecl.php.net/redis”
+    
     > 请参考： https://github.com/yeszao/dnmp/issues/10
 
 说明：**这个问题主要是受国内网络环境影响，现在PHP7以上的版本直接采用从源码安装扩展，所以这个问题已经没有了。**
 
 2. PHP5.6错误“ibfreetype6-dev : Depends: zlib1g-dev but it is not going to be installed or libz-dev”
+    
     > 请参考： https://github.com/yeszao/dnmp/issues/39
 
 ## License
