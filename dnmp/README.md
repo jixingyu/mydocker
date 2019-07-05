@@ -161,8 +161,10 @@ Redis连接信息如下：
 - host: (本项目的Redis容器网络)
 - port: `6379`
 
+## 8 elastic search
+* Curator工具
 
-## 8 在正式环境中安全使用
+## 9 在正式环境中安全使用
 要在正式环境中使用，请：
 1. 在php.ini中关闭XDebug调试
 2. 增强MySQL数据库访问的安全策略
